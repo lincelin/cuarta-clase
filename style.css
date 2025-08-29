@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  color:#250;
+  font-family: Helvetica, Arial, sans-serif;
+
+}
+   
+a {
+color:#f00;
+text-decoration:underline;
+transition:all ease 1s;
+margin: 5rem;
+margin-left: 5rem;
+margin-top: 05rem;
+font-size: 35px;
+
+font-family:"Pixelify Sans", sans-serif;
+
+}
+
+.xmas {font-family: "Pixelify Sans", sans-serif;
+  font-size: 100px;
+  color:#300;
+  margin-left: 5rem;
+  margin-top: 05rem;
+  font-style: normal;
+  padding-top: 50px;
+}
+}
+
+a:hover {
+  color:c55;
+  text-decoration:underline;
+  transition:all ease 1s;
+
+}
+
+#bloque {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    margin: auto;
+    padding: 1%;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 1rem;
+    box-shadow: 0 0 30px white;
+    z-index: 9999;
+}
+
+main{
+  margin:5rem;
+  border-radius:1rem;
+  block-size: 500px;
+  background: rgba(0, 0, 250, 0.5);
+  box-shadow:0 0 05px white;
+  margin-left: 5rem;
+  margin-top: 05rem;
+}
+p{
+  padding-left: 50px;
+  font-family:"Pixelify Sans", sans-serif;
+  padding-top:-50px;
+  margin-left: 2.5rem;
+  margin-right: 0;
+margin-top: 1rem;
+font-size: 50px;
+}
+
+p2{
+  padding-left: 50px;
+  font-family:"Pixelify Sans", sans-serif;
+  padding-top:-50px;
+margin-top: 1rem;
+font-size: 30px;
+}
+
+h1 {
+  margin-left: 5rem;
+  margin-top: 25rem;
+  font-family:"pinyon-script-regular", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: calc(3rem + 5ww);
+}
+
+canvas {
+  display: block;
+  block-size: 500px;
+}
